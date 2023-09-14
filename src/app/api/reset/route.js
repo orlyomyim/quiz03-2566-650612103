@@ -8,3 +8,4 @@ export const POST = () => {
   resetDB();
   return NextResponse.json({ ok: true, message: "DB has been reset" });
 };
+
